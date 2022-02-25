@@ -1,0 +1,25 @@
+{
+  "name": "blogserver",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node main"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-cors": "^0.0.16",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
+    "mongodb": "^4.3.0",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "require-directory": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/koa-cors": "^0.0.2"
+  }
+}
